@@ -1,0 +1,283 @@
+
+
+@media (max-width: 992px) {
+
+/* nav */
+
+.nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-color: #2d274b;
+}
+
+nav.active {
+display: block;
+}
+
+.nav_link {
+display: block;
+margin: 15px 0 15px 23px;
+}
+
+.nav-toggle {
+display: block;
+}
+
+/* story */
+
+.story {
+flex-wrap: wrap;
+}
+
+.story_image {
+margin: 0 auto;
+}
+
+.story_text {
+margin: 0 auto;
+}
+
+/* extertise */
+
+.extertise_content {
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.extertise_item {
+width: 40%;
+max-width: 250px;
+margin-bottom: 20px;
+}
+
+hr {
+display: none;
+}
+
+/* Our_teem */
+
+.our_teem_inner {
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.our_teem_item {
+width: 45%;
+}
+
+
+/* Works */
+
+.works_content {
+flex-wrap: wrap;
+}
+
+.works_image {
+width: 25%;
+}
+
+
+/* .reviews */
+
+.reviews_inner {
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.reviews_form {
+width: 100%;
+margin-bottom: 60px
+}
+
+.reviews_logo {
+width: 100%;
+}
+
+/* footer */ 
+
+.footer {
+height: auto;
+padding-bottom: 30px;
+}
+
+.footer_inner {
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+
+.footer_logo {
+margin: 0 auto 30px auto;
+}
+
+.footer_studio {
+    margin: 0 auto 30px auto;
+}
+
+
+.footer_subscribe {
+    margin: 0 auto 30px auto;
+}
+
+/* slider */
+
+.slick-ar {
+top: 91%;
+}
+
+}
+
+
+@media (max-width: 725px) {
+
+/* intro */
+
+.intro_title {
+font-size: 27px;
+}
+
+/* story */
+
+.story_text {
+    text-align: center;
+}
+.story_article {
+text-align: left;
+}
+
+/* reviews */
+
+.reviews_inner {
+text-align: center;
+}
+
+}
+
+
+@media (max-width: 550px) {
+
+    /* intro */
+    
+    .intro {
+    min-height: 800px;
+    }
+
+    .intro_title {
+    max-width: 60%;
+    margin: 0 auto;
+    line-height: 1.4;
+    }
+
+    .intro_suptitle {
+   width: 80%;
+   margin: 0 auto;
+   margin-bottom: 30px;
+    }
+
+    .slick-dots {
+    padding: 0 0 0 44.5%
+    }
+    
+
+    /* extertise_content */
+    .extertise_item {
+    width: 100%;
+    margin-bottom: 50px;
+    }
+
+    .extertise_item:last-child {
+    margin-bottom: 0;
+    }
+
+
+    /* our_teem */ 
+
+    .our_teem_item {
+    width: 100%;
+    }
+
+
+    /* Works */
+
+    .works_image {
+    width: 33.333%;
+    }
+    }
+
+
+    @media (max-width: 435px) {
+     /* Works */
+
+    .works_image {
+        width: 50%;
+        }
+
+      /* reviews */
+      .reviews_image {
+      width: 90%;
+      margin: 49px auto 50px auto;
+      }
+
+    }
+
+    @media (max-width: 360px) {
+    /* intro */
+
+    .intro {
+    min-height: 890px;
+    }
+    }
+    
+
+
+
+   /* Control_inner */
+
+
+@media (max-width: 670px) {
+
+    /* intro */
+    
+    .control_inner {
+   left: 39%;
+    }
+    
+    }
+
+
+    @media (max-width: 527px) {
+
+        /* intro */
+        
+        .control_inner {
+       left: 36%;
+        }
+        
+        }
+
+        @media (max-width: 400px) {
+
+            /* intro */
+            
+            .control_inner {
+           left: 32%;
+            }
+            
+            }
+
+            @media (max-width: 339px) {
+
+                /* intro */
+                
+                .control_inner {
+               left: 29%;
+                }
+                
+                }
