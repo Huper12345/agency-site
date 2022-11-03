@@ -1,0 +1,19 @@
+{
+  "name": "tajam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huper12345/agency-site.git"
+  },
+  "author": "huper12345",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huper12345/agency-site/issues"
+  },
+  "homepage": "https://github.com/Huper12345/agency-site#readme"
+}
